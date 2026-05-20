@@ -57,6 +57,8 @@ The debug APK is generated at:
 app/build/outputs/apk/debug/app-debug.apk
 ```
 
+Tagged releases automatically build an APK and publish it to GitHub Releases.
+
 ## Project Shape
 
 - `app/src/main/java/com/example/echogrid/MainActivity.java` starts the fullscreen game.

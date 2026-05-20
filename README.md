@@ -2,7 +2,7 @@
 
 ![EchoGrid banner](docs/images/echogrid-banner.png)
 
-EchoGrid is a Java-only Android game about finding a hidden target by listening. Each tap probes a tile on the grid, and the game answers with a short two-tone echo that tells you how close that probe was on each axis. The visual board gives a readable heat trail, but the core skill is learning to navigate by sound.
+EchoGrid is an Android game about finding a hidden target by listening. Each tap probes a tile on the grid, and the game answers with a short two-tone echo that tells you how close that probe was on each axis. The visual board gives a readable heat trail, but the core skill is learning to navigate by sound.
 
 ## Gameplay
 
@@ -45,7 +45,7 @@ That progression keeps the first test approachable while leaving room for a more
 
 ## Build
 
-EchoGrid is Android Java with no Kotlin and no native C++ layer.
+EchoGrid is Android standard build.
 
 ```bash
 ./gradlew :app:assembleDebug

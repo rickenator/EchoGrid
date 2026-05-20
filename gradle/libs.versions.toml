@@ -1,0 +1,13 @@
+[versions]
+agp = "8.3.0"
+junit = "4.13.2"
+androidxTestExtJunit = "1.1.5"
+androidxTestEspressoCore = "3.5.1"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxTestExtJunit" }
+androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxTestEspressoCore" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }

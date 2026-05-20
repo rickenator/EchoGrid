@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="echo_ink">#050B11</color>
+    <color name="echo_deep">#061819</color>
+    <color name="echo_panel">#0D181F</color>
+    <color name="echo_text">#E8F4F0</color>
+    <color name="echo_cyan">#4CDDD5</color>
+    <color name="echo_gold">#FFC654</color>
+    <color name="echo_coral">#FF5D6C</color>
+</resources>

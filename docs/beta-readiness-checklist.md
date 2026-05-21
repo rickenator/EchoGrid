@@ -23,3 +23,19 @@
 - [ ] Round progression works on physical device
 - [ ] App survives pause/resume on physical device
 - [ ] App survives rotation/config changes, if applicable
+
+## Before Internal Testing Upload
+
+- [x] AAB generated
+- [ ] AAB signed or Play upload key configured
+- [x] VersionCode unique
+- [x] VersionName correct
+- [ ] Privacy policy URL available
+- [ ] App content forms completed
+- [ ] Data Safety answers match no-collection/no-ads/no-analytics behavior
+- [ ] Screenshots uploaded
+- [ ] Feature graphic uploaded
+- [ ] App icon uploaded
+- [ ] Contact email set
+- [ ] Countries/regions selected
+- [ ] Internal tester list configured

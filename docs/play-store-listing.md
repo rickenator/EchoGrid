@@ -50,7 +50,7 @@ rick@aniviza.com
 
 ## Store Asset TODOs
 
-- Replace launcher icon before open testing.
+- Create final EchoGrid launcher icon before open testing.
 - Capture screenshots for phone and tablet layouts.
 - Prepare a Play feature graphic.
 

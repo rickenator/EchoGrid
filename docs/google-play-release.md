@@ -10,6 +10,8 @@
 - targetSdk: `35`
 - minSdk: `23`
 - Category: Game / Puzzle
+- Android Gradle Plugin: `8.6.1`
+- Gradle wrapper: `8.7`
 
 Versioning scheme:
 
@@ -34,13 +36,27 @@ app/build/outputs/bundle/release/app-release.aab
 
 Do not commit private keys or signing property files. Store the upload keystore outside the repository and create a local `keystore.properties` file in the repo root when building a signed release.
 
+Create a local upload keystore outside the repository:
+
+```bash
+mkdir -p ~/.android/keystores
+
+keytool -genkeypair \
+  -v \
+  -keystore ~/.android/keystores/echogrid-upload.jks \
+  -alias echogrid-upload \
+  -keyalg RSA \
+  -keysize 4096 \
+  -validity 10000
+```
+
 Example `keystore.properties`:
 
 ```properties
-storeFile=/absolute/path/to/echogrid-upload-key.jks
-storePassword=replace-with-local-password
-keyAlias=echogrid
-keyPassword=replace-with-local-password
+storeFile=/home/rick/.android/keystores/echogrid-upload.jks
+storePassword=REPLACE_ME
+keyAlias=echogrid-upload
+keyPassword=REPLACE_ME
 ```
 
 The repository ignores `keystore.properties`, `*.jks`, `*.keystore`, and `*.p12`.
@@ -67,6 +83,6 @@ The app intentionally runs fullscreen in sensor landscape for the current game l
 
 ## Store Asset TODOs
 
-- Replace launcher icon before open testing.
+- Create final EchoGrid launcher icon before open testing.
 - Capture current phone and tablet screenshots.
 - Prepare a feature graphic before open testing.

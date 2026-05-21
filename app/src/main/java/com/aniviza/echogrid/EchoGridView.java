@@ -1,4 +1,4 @@
-package com.example.echogrid;
+package com.aniviza.echogrid;
 
 import android.content.Context;
 import android.graphics.Canvas;

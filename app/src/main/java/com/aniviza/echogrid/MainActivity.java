@@ -1,4 +1,4 @@
-package com.example.echogrid;
+package com.aniviza.echogrid;
 
 import android.app.Activity;
 import android.os.Bundle;

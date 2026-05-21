@@ -61,6 +61,6 @@ Tagged releases automatically build an APK and publish it to GitHub Releases.
 
 ## Project Shape
 
-- `app/src/main/java/com/example/echogrid/MainActivity.java` starts the fullscreen game.
-- `app/src/main/java/com/example/echogrid/EchoGridView.java` contains rendering, gameplay, generated audio cues, haptics, scoring, and level progression.
+- `app/src/main/java/com/aniviza/echogrid/MainActivity.java` starts the fullscreen game.
+- `app/src/main/java/com/aniviza/echogrid/EchoGridView.java` contains rendering, gameplay, generated audio cues, haptics, scoring, and level progression.
 - `docs/images/echogrid-banner.png` is the README banner screenshot.
